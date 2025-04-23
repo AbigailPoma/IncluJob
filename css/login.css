@@ -119,19 +119,8 @@
   left: 0;
 }
 
-.box .backdrop {
-  position: absolute;
-  width: 1440px;
-  height: 1024px;
-  top: 0;
-  left: 1px;
-  background-color: #11111140;
-  backdrop-filter: blur(66px) brightness(100%);
-  -webkit-backdrop-filter: blur(66px) brightness(100%);
-}
-
 .box .image-2 {
-  object-fit: cover;
+  object-fit: fill;
   position: absolute;
   width: 1440px;
   height: 1024px;
@@ -143,8 +132,8 @@
   position: absolute;
   width: 704px;
   height: 725px;
-  top: 148px;
-  left: 368px;
+  top: 15%;
+  left: 40%;
   background-color: #ffffff;
   border-radius: 24px;
   overflow: hidden;
